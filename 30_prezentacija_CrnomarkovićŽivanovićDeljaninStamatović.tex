@@ -1,47 +1,43 @@
 \documentclass{beamer}
+\usepackage{beamerthemeshadow}
+\usepackage{graphicx}
+\usepackage{color}
 \usepackage[utf8]{inputenc}
-\usetheme{Copenhagen}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage[english, serbian]{babel}
+\usepackage{subfigure}
+\definecolor{caribbeangreen}{rgb}{0.6, 0.33, 0.73}
+\setbeamercolor{structure}{fg=caribbeangreen}
+\captionsetup[figure]{labelformat=empty}
+\captionsetup[table]{labelformat=empty}
 
 
-\usepackage[english,serbian]{babel}
+\def\d{{\fontencoding{T1}\selectfont\dj}}
+\def\D{{\fontencoding{T1}\selectfont\DJ}}
 
-\title{Pametni gradovi}
-\author{Petar Deljanin, Ana Crnomarković, Nina Stamatović, Aleksandar Živanović }
-\date{Decembar 2022.}
+
+\title{Tehničko i naučno pisanje}
+\subtitle{-- Pametni gradovi --}
+\author{Ana Crnomarković \and Petar Deljanin\\ \and Nina Stamatović \and Aleksandar Živanović}
+\institute{Matematički fakultet\\Univerzitet u Beogradu}
+\date{
+	\footnotesize{Beograd, 2022.}	
+}
 
 \begin{document}
-
-\maketitle
-
-\section{Uvod}
-
-\begin{frame}{Uvod}
-\begin{itemize}
-    \item{Glavna područja}
-    \item{Problemi}
-    \item{IKT}
-    \item{Od jednostavnih projekata do globalnih strategija}
-\end{itemize}
+\begin{frame}
+	\thispagestyle{empty}
+	\titlepage
 \end{frame}
 
-\section{Koncept pametnih gradova}
+\addtocounter{framenumber}{-1}
 
-\begin{frame}{Koncept pametnog grada}
-\begin{itemize}
-    \item{Šta je pametni grad?} 
-    \item{Postoje dva modela}
-    \item{Međusobna povezanost nije dovoljna}
-    \item{Komponente (Slika: 1)}
-    
-\end{itemize} 
-\begin{figure}
-    \centering
-    \includegraphics[height = 4cm]{slika1.png}
-    \caption{1}
-    \label{Slika}
-\end{figure}
-
-
+\begin{frame}[fragile]\frametitle{Literatura}
+	\begin{itemize}
+		\item Zasnovano na seminarskom radu "Pametni gradovi - Petar Deljanin, Ana Crnomarković, Aleksandar Živanović, Nina Stamatović", koji se može naći na sledećem linku:
+		(\url{https://raw.githubusercontent.com/Petarbogotac/30_TNP2022/main/30_Crnomarkovi%C4%87%C5%BDivanovi%C4%87DeljaninStamatovi%C4%87.pdf.pdf})
+	\end{itemize}
 \end{frame}
-
 \end{document}
